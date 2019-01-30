@@ -1,0 +1,24 @@
+To set up
+- Download project folder.
+- Create 'medscriptr' database
+- Username of database is 'root', password is "" (i.e, no password)
+- Import database dump from 'database_dump' folder, into mysql
+- Open project folder in command prompt and run 'php artisan serve' command
+- Open browser and go to 'http://127.0.0.1:8000'
+- '/' route redirects to login page
+- Username is 'superadmin', password is 'superadmin1234567890'
+- After login, dashboard is shown
+
+
+Dashboard
+- '/dashboard' route shows total number of staffs, number of adminiatrators, doctors and nurses (P.S. each info is a link)
+- 'Add staff' goes to the create page where new staffs can be added to database
+- 'All Staffs' page lists all registered staffs in a tabular form. Searches can be made on this page too
+- 'Adminiatrator', 'Doctors', 'Nurses' lists staffs according to the respective roles
+- On each page that lists staffs, theres an 'edit' button that goes to the page to edit staff details. Staff could also be deleted from this page.
+
+Features
+- Minimal and efficient code used
+- Pagination
+- Input validation
+- Attractive User Interface
